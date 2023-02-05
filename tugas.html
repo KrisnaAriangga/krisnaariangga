@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="w3.css" />
+  </head>
+  <body style="background-color: grey;">
+    <div>
+      <img src="game2.jpg" style="width: 100%" height="300px"/>
+    </div>
+
+    <div class="w3-bar w3-green">
+      <button class="w3-bar-item w3-button w3-round-large" onclick="opengame('Welcome')">Home</button>
+      <button class="w3-bar-item w3-button w3-round-large" onclick="opengame('Source')">Game Source Media</button>
+      <div class="w3-dropdown-hover">
+        <button class="w3-button w3-round-large">Pilihan Game</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <button class="w3-bar-item w3-button" onclick="opengame('PUBGM')">PUBG Mobile</button>
+          <button class="w3-bar-item w3-button" onclick="opengame('Apex')">Apex Legends</button>
+          <button class="w3-bar-item w3-button" onclick="opengame('Valorant')">Valorant</button>
+          <button class="w3-bar-item w3-button" onclick="opengame('PB')">Point Blank</button>
+          <button class="w3-bar-item w3-button" onclick="opengame('Dota2')">Dota 2</button>
+          <button class="w3-bar-item w3-button" onclick="opengame('ML')">Mobile Legends</button>
+          <button class="w3-bar-item w3-button" onclick="opengame('CODM')">Call Of Duty Mobile</button>
+        </div>
+      </div>
+      <button class="w3-bar-item w3-button w3-round-large" onclick="opengame('MySelf')">Profile</button>
+    </div>
+
+    <div id="Welcome" class="w3-container w3-animate-fading w3-center game" style="display: block;">
+      <br>
+      <h1>Game Source Media</h1>
+      <br />
+      <p>Informasi Tentang Game</p>
+    </div>
+
+    <div id="Source" class="w3-container w3-animate-opacity w3-center game" style="display: none;">
+      <h1>Game</h1>
+      <hr />
+      <p><b>Game</b> 
+        berasal dari bahasa Inggris yang berarti permainan. Game
+        (permainan) secara umum adalah sebuah aktivitas rekreasi dengan tujuan
+        bersenang-senang, mengisi waktu luang, atau berolahraga ringan. Permainan
+        biasanya dilakukan sendiri atau bersama-sama.
+        Game merupakan aktifitas terstruktur atau semi terstruktur yang biasanya
+        bertujuan untuk hiburan dan kadang dapat digunakan sebagai sarana pendidikan.
+        Karakterisitik game yang menyenangkan, memotivasi, membuat kecanduan dan
+        kolaboratif membuat aktifitas ini digemari oleh banyak orang (Wahono, R.S.
+        2009).
+        Dalam setiap game terdapat peraturan yang berbeda-beda untuk memulai
+        permainannya sehingga membuat jenis game semakin bervariasi. Karena salah
+        satu fungsi game juga sebagai penghilang stress atau rasa jenuh maka hampir
+        setiap orang senang bermain game baik anak kecil, remaja maupun dewasa. </p>
+    </div>
+
+    <div id="PUBGM" class="w3-container w3-animate-top w3-center game" style="display: none;">
+      <h1>PUBG Mobile</h1>
+      <img src="pubgm.jpg" alt="pubg" style="width: 200px;"/>
+      <p>PUBG Mobile merupakan gim battle royale yang dirancang oleh Brendan Greene. Secara resmi gim ini dirilis secara global pada bulan Maret 2018. Pada dasarnya, PUBG memiliki tiga versi yang berbeda berdasarkan platform bermainnya.
+        Awalnya, gim ini tersedia untuk platform PC Windows melalui Steam. Sampai akhirnya tersedia untuk Xbox One hingga mobile seperti sekarang ini. Versi mobile-nya ini benar-benar mampu menembus pasar global secara merata, khususnya di kawasan Asia.
+        Dalam gameplay-nya, akan ada 100 pemain yang bertempur untuk menjadi pemenang. Pemain bisa memilih untuk bermain dalam mode <b>solo</b> (sendiri), <b>duo</b> (berdua), maupun <b>squad</b> (berempat).
+        Semua pemain akan mengawali permainan dari pesawat tempur yang akan memaksa mereka untuk terjun bebas di peta permainan menggunakan parasut. Setelah berhasil mendarat, para pemain perlu melakukan looting untuk mendapatkan senjata, baju perang dan berbagai alat penyokong kehidupan lainnya.</p>
+    </div>
+
+    <div id="Apex" class="w3-container w3-animate-bottom w3-center game" style="display: none;">
+      <h1>Apex Legends</h1>
+      <img src="apex.jpg" alt="apex" style="width: 200px;"/>
+      <p>Hari gini sudah tahu belum apa itu Apex Legends? Apex Legends adalah judul esports pendatang baru untuk genre battle royale dengan sistem free to play (F2P). Delapan jam setelah peluncurannya, Apex Legends langsung mengguncang dunia esports atas keberhasilannya menciptakan hype dan mendapatkan 2,5 juta pemain.
+        Kehadiran Apex Legends ini sempat mendominasi pasar esports di berbagai saluran streaming, mengalahkan judul-judul populer sebelumnya. Sebut saja Dota 2 dan CS:GO, judul legendaris dalam esports, yang masing-masing sudah melahirkan banyak pro player.
+        Di kala Apex Legends masih hijau, kamu masih punya banyak kesempatan untuk mulai “berinvestasi” waktu menempa skill.</p>
+    </div>
+
+    <div id="Valorant" class="w3-container w3-animate-left w3-center game" style="display: none;">
+      <h2>Valorant</h2>
+      <img src="valorant.jpg" alt="valorant" style="width: 200px;" />
+      <p>Permainan dimulai dengan dua tim yang masing-masing beranggotakan 5 pemain untuk saling memperjuangkan misi mereka, baik itu untuk menanam bom ataupun mencegah dan menjinakkan bom (spike).
+        Selama bertempur, setiap permainan akan berlangsung selama 24 ronde, dimana tim yang terlebih dahulu memenangkan 13 ronde akan keluar sebagai pemenang. Setelah permainan berjalan selama 12 ronde, tim yang awalnya berperan sebagai Attacker akan bertukar posisi menjadi Defender, dan sebaliknya.
+        Di setiap ronde tersebut, para pemain dibekali satu nyawa untuk menanam/menjinakkan bom. Satu nyawa ini berarti, pemain akan bangkit kembali di ronde berikutnya.
+        Selain bermain dengan bom, kemenangan juga bisa diraih dengan mengalahkan seluruh karakter lawan.
+        Berbeda dengan CS:GO, setiap karakter dalam gim ini, memiliki kekuatan khusus yang disertai dengan class, seperti Initiator, Controller, Sentinel, dan Duelist.
+        Klasifikasi senjata dalam Valorant cukup bervariasi, mulai dari sidearms, submachine guns, shotguns, machine guns, assault rifles, hingga sniper rifles.
+        Valorant juga memiliki kemiripan dengan CS:GO, terutama dengan adanya mekanisme ekonomi.</p>
+    </div>
+
+    <div id="PB" class="w3-container w3-animate-right w3-center game" style="display: none;">
+      <h2>Point Blank</h2>
+      <img src="pb.jpg" alt="pb" style="width: 200px;" />
+      <p>Point Blank adalah game ber-genre first person shooter (FPS) yang dikembangkan langsung oleh perusahaan asal Korea Selatan, Zepetto. Perusahaan ini juga memegang kendali dalam hal publikasi game ini.
+        Dalam gim ini, terdapat dua tim yang saling mengalahkan untuk menjadi pemenang. Konsep tersebut rupanya berdasarkan dari latar belakang cerita game ini.</p>
+    </div>
+
+    <div id="Dota2" class="w3-container w3-animate-opacity w3-center game" style="display: none;">
+      <h2>Dota 2</h2>
+      <img src="dota2.jpg" alt="dota" style="width: 200px;" />
+      <p>Defense of the Ancients 2 atau Dota 2 merupakan gameyang di-remastered dari custom map Dota dari permainan Warcraft III buatan Blizzard Entertainment.
+        Dirilis Valve pada Juli 2013, dan dapat dimainkan pada platform Windows, Mac OS dan Linux.
+        Salah satu most-played game di Steam dengan jutaan player aktif setiap harinya.
+        Dimainkan sebanyak 10 orang yang terbagi ke dalam 2 tim: Radiant dan Dire.
+        Permainan dimulai dengan setiap pemain memilih 1 hero dari kumpulan hero yang ada. Jumlah hero saat ini sudah lebih dari 100 hero.
+        Setiap hero memiliki skillset atau kombinasi jurus yang unik, dan hero dapat diperkuat dengan berbagai cara.
+        Tujuan permainan ini adalah untuk mempertahankan bangunan Ancient masing-masing tim dan di saat yang sama, menghancurkan Ancient lawan.
+        Setiap permainan dapat berdurasi sekitar 20 hingga 50 menit. Pada beberapa kasus, dapat berdurasi lebih dari 1 jam.</p>
+    </div>
+
+    <div id="ML" class="w3-container w3-animate-zoom w3-center game" style="display: none;">
+      <h2>Mobile Legends</h2>
+      <img src="ml.jpg" alt="ml" style="width: 200px;" />
+      <p>Mobile Legends adalah game yang dikembangkan dan dirilis oleh Moontoon developer. 
+        Game ini dapat dimainkan di platform mobile Android dan iOS. Game MOBA satu ini sukses mencuri perhatian para gamer di Indonesia sejak tahun 2016.
+        Permainan ini dimainkan sebanyak 10 orang yang terbagi menjadi 2 tim.
+        Permainan dimulai dengan setiap pemain memilih 1 hero dari daftar hero yang bisa diakses oleh pemain. Hero yang tersedia adalah hero yang telah dibeli dan hero yang sedang ‘dipinjamkan’ secara gratis kepada pemain oleh sistem. Dengan kata lain, tidak semua hero dapat langsung dimainkan.
+        Lama permainan berkisar sekitar 15 menit untuk 1 ronde.</p>
+    </div>
+
+    <div id="CODM" class="w3-container w3-animate-fading w3-center game" style="display: none;">
+      <h2>Call Of Duty Mobile</h2>
+      <img src="codm.jpg" alt="codm" style="width: 200px;" />
+      <p>Call of Duty: Mobile adalah sebuah game free-to-play yang dikembangkan oleh TiMi Studios dan dipublikasikan untuk perangkat Android dan iOS. 
+        Game ini secara resmi dirilis pada 1 Oktober 2019 dan telah diumumkan sebelumnya pada Maret 2019, sembari dilakukannya serangkaian beta test secara tertutup di India, Australia dan Kanada.
+        Game ini memperoleh lebih dari 35 juta unduhan dalam 3 hari setelah perilisannya, dan berhasil meraup pendapatan lebih dari 2 juta dolar Amerika. Bahkan setelah 1 minggu game ini dirilis, 
+        COD Mobile memberikan kejutan dengan berhasil meraih 100 juta unduhan dan memperoleh pendapatan lebih dari 18 juta dolar. Pencapaian ini membuat COD Mobile sebagai game mobile dengan peluncuran terbesar sepanjang sejarah.
+        Secara umum, game ini cukup kaya dengan menghadirkan semua mode varian Player vs. Player (PVP), termasuk Battle Royale. Di sisi lain, tim pengembang juga sempat mengungkapkan bahwa COD Mobile tidak akan menjadi game yang sepenuhnya bersifat multiplayer. 
+        Ke depannya, akan ada beberapa mode kejutan yang ditambahkan.
+        Di dalam permainan ini baik peta, karakter, dan senjata yang muncul merupakan gabungan dari semua seri Call of Duty dalam beberapa tahun terakhir, termasuk di dalamnya seri Modern Warfare dan Black Ops.</p>
+    </div>
+
+    <div id="MySelf" class="w3-container w3-spin game" style="display: none;">
+      <center>
+        <div class="w3-card-4 w3-round-large" style="width: 30%; background-color: aqua;">
+          <h1>Identitas</h1>
+          <div class="w3-card-4">
+            <br /><img src="krisna.jpg" alt="krisna" class="w3-round-large" style="width: 70%;"/>
+          </div>
+          <div class="container" style="background-color: aqua;">
+            <br>
+            <table>
+              <tr>
+                <td>Nama</td>
+                <td> :</td>
+                <td>Krisna Ariangga</td>
+              </tr>
+              <tr>
+                <td>Nim</td>
+                <td> :</td>
+                <td>10122020</td>
+              </tr>
+              <tr>
+                <td>Kelas</td>
+                <td> :</td>
+                <td>IF-1</td>
+              </tr>
+              <tr>
+                <td>Cita-Cita</td>
+                <td> :</td>
+                <td>Game Developer</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </center>
+    </div>
+
+  </body>
+  <script>
+    function opengame(namagame) {
+      var i;
+      var x = document.getElementsByClassName("game");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(namagame).style.display = "block";
+    }
+  </script>
+</html>
